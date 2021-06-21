@@ -306,10 +306,10 @@ export default {
 }
 
 .account-item {
-  /* height: 30px; */
   line-height: 30px;
   padding: 0 0px;
   font-size: 14px;
+  margin-bottom: 5px;
 }
 
 .syncpost-block {
