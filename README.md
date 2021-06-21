@@ -5,8 +5,9 @@
 ## 使用
 
 ```html
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wechatsync/article-syncjs@latest/dist/styles.css" />
-  <script src="https://cdn.jsdelivr.net/gh/wechatsync/article-syncjs@latest/dist/main.js"></script>
+<!-- css -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wechatsync/article-syncjs@latest/dist/styles.css" />
+<script src="https://cdn.jsdelivr.net/gh/wechatsync/article-syncjs@latest/dist/main.js"></script>
 ```
 
 ## API
