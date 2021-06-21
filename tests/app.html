@@ -1,0 +1,34 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+  <link rel="stylesheet" href="../dist/styles.css" />
+  <script src="../dist/main.js"></script>
+  <script>
+    // var file = ''
+    // var iframe = document.createElement('iframe')
+    // document.body.appendChild(iframe)
+
+
+    function addTag(target, src, type) {
+      var tag = document.createElement(type)
+      if (type == 'script') {
+        tag.src = src
+      } else {
+        tag.href = src
+        tag.rel = 'stylesheet'
+      }
+      target.appendChild(tag)
+    }
+
+    // addTag(iframe.contentWindow.document.body, "../dist/main.js", 'script')
+    // addTag(iframe.contentWindow.document.body, "../dist/styles.css", 'link')
+
+  </script>
+
+</body>
+
+</html>
